@@ -8,3 +8,6 @@ Small Minecraft Texture Pack with Shader Support
 1. clone with git(hub)
 2. `npm install`
 3. `gulp zip-copy` (copies to %appdata%) or `gulp zip` (copies to ./build)
+
+## special mentions
+- [part of dirt texture](http://fabooguy.deviantart.com/art/Dirt-Ground-Texture-Tileable-2048x2048-441212191)

@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Small Minecraft Texture Pack with Shader Support",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dodekeract/lotus.git"
@@ -19,6 +16,8 @@
   "dependencies": {
     "git-rev": "^0.2.1",
     "gulp": "^3.9.0",
+    "gulp-jimp": "0.0.8",
+    "gulp-util": "^3.0.6",
     "gulp-zip": "^3.0.2",
     "moment": "^2.10.3"
   }

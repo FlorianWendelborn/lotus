@@ -33,7 +33,9 @@ gulp.task('zip-copy', function () {
 });
 
 gulp.task('zip-copy-short', function () {
-    var date = moment().format('YYYY.MM.DD-hh.mm.ss');
+    var now = Number(new Date().getTime());
+    console.log(now);
+    var date = 10e13-now;
     return gulp.src('pack/**/*')
         .pipe(zip('00-' + date + '.zip'))
         .pipe(gulp.dest(getUserHome() + '/AppData/Roaming/.minecraft/resourcepacks'));
